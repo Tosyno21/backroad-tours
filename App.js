@@ -27,6 +27,7 @@ scrollLinks.forEach((link) => {
 
     window.scrollTo({
       left: 0,
+      // top: element.offsetTop,
       top: position,
       behavior: "smooth",
     });
